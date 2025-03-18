@@ -1,0 +1,47 @@
+  /* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1em;
+  }
+  header h1 {
+    margin: 0;
+  }
+  nav ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 1em;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav a.active {
+    text-decoration: underline;
+  }
+  main {
+    padding: 1em;
+  }
+  .result {
+    margin-top: 1em;
+    font-weight: bold;
+  }
+  #scaleStaff, #modeStaff {
+    margin-top: 2em;
+  }
+  footer {
+    background: #f2f2f2;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+  }
+  .pianoContainer {
+    margin-top: 1em;
+  }
+  
