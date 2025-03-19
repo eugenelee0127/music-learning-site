@@ -1,40 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- index.html (public folder or project root, depending on your setup) -->
-<head>
-  ...
-  <script src="https://unpkg.com/vexflow@4.0.3/build/vexflow.js"></script>
-  <script src="https://unpkg.com/tone@latest/build/Tone.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/piano-chart@3.3.1/dist/PianoChart.min.js"></script>
-</head>
-<head>
-  <meta charset="UTF-8" />
-  <title>Music Theory – Home</title>
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-<body>
-  <header>
-    <h1>Music Theory Learning Site</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="Scales.jsx">Scales</a></li>
-        <li><a href="Modes.jsx">Modes</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Music Theory Learning Site</title>
 
-  <main>
-    <h2>Welcome</h2>
-    <p>This site helps you learn major, minor, chromatic scales, and modes. 
-       You can also see staff notation, hear audio playback, and watch the 
-       notes highlight on a piano keyboard. 
-    </p>
-    <p>Use the nav bar above to explore!</p>
-  </main>
+    <!-- Global scripts: VexFlow, Tone.js, PianoChart -->
+    <script src="https://unpkg.com/vexflow@4.0.3/build/vexflow.js"></script>
+    <script src="https://unpkg.com/tone@latest/build/Tone.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/piano-chart@3.3.1/dist/PianoChart.min.js"></script>
 
-  <footer>
-    <p>&copy; 2025 Your Name – All Rights Reserved</p>
-  </footer>
-</body>
+    <!-- Link to your main CSS (optional to keep in public or move to src) -->
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <!-- React application will mount here -->
+    <div id="root"></div>
+    <!-- No other major markup needed. -->
+  </body>
 </html>
